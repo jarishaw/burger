@@ -1,5 +1,4 @@
 var connection = require("../config/connection.js");
-// could path be issue?
 
 function printQuestionMarks(num) {
     var arr = [];
