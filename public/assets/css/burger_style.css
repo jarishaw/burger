@@ -3,9 +3,6 @@ body{
 
 }
 
-h2{
-    color: white;
-}
 
 .order{
     list-style: none;
@@ -13,19 +10,23 @@ h2{
 }
 
 #devoured{
-    color:gray;
+    color:#ffff80;
+    
 }
 
 #not-devoured{
-    color: white;
+     color:  #00cc00;
+   
 }
 
 h1{
     text-align: center;
+    color: white;
 }
 
 .row{
-    padding-top: 35px;
+    padding-top: 25px;
+   
    
 }
 
@@ -34,6 +35,23 @@ h1{
 }
 
 #burgerinput{
-    width: 250px;
+    width: 200px;
 }
 
+#addburger p {
+    color: white;
+    font-size: 11px;
+}
+
+ul{
+    padding: 0px;
+}
+
+h4{
+    font-weight: bolder;
+}
+
+.change-burger{
+    color:  #00cc00;
+    font-weight: bold;
+}

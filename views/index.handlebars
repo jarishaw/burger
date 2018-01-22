@@ -1,8 +1,10 @@
 <div class="container text-center">
 
-    <h2>Eat-Da-Burger</h2>
+<div class= "row">
+    <h1>Eat-Da-Burger</h1>
+  
 
-    <img src="https://media.giphy.com/media/WBTUlyKBVlTTa/giphy.gif" height=300px alt="Burger Image">
+    <img src="/assets/img/giphy.gif" height=275px alt="Burger Image">
 
     <form id="addburger" class="new-burger">
         
@@ -11,22 +13,20 @@
         </div>
         <br>
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="btn btn-warning">Submit</button>
 
         <p>Enter a burger you want to eat then click the "submit" button</p>
 
     </form>
-
-</div>
-
-</div>
-
-</div>
+    
 
 
-<div class = "row">
-    <div class = "col-xs-6 col-md-4">
+
+    
+    
+    <div class= "col-md-6">
         <div id="not-devoured">
+        <h4>BURGERS</h4>    
         <ul>
          {{#each burgers}}
             {{#unless this.devoured}}
@@ -38,10 +38,10 @@
     </div>
 
 
-    
-
-    <div class="col-xs-6 col-md-4">
+    <div class = "col-md-6">
         <div id = "devoured">
+        
+            <h4>DEVOURED</h4>
         {{#each burgers}}
             {{#if this.devoured}}
             <li id="devoured" class="order">
@@ -51,6 +51,9 @@
         {{/each}}
     </div>
     </div>
+
+</div>
+</div>
 </div>
 
 
